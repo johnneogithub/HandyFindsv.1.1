@@ -1,0 +1,85 @@
+/*FOR DROPDOWN MENU OF NAVIGATION BAR*/
+
+.toolsdrop {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .toolsdrop .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 17px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; /* For vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .toolsdrop:hover .dropbtn {
+    background-color: darkred;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A80000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+  }
+  
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 11px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .toolsdrop:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .machinerydrop {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .machinerydrop .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 11px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+
+  .navbar a:hover, .machinerydrop:hover .dropbtn {
+    background-color: darkred;
+  }
+  
+  .machinerydrop:hover .dropdown-content {
+    display: block;
+  }
+  
+  .machinerydrop {
+    float: left;
+    overflow: hidden;
+  }
